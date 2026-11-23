@@ -140,8 +140,8 @@ a {
 
 .box14 {
     display: block;
-    width: 110px;
-    height: 65px;
+    width: 90px;
+    height: 45px;
     object-fit: contain;
     flex-shrink: 0;
     margin-left: 20px;
@@ -466,20 +466,7 @@ a {
     flex-direction: column;
     gap: 5px;
     margin: 35px 0 25px 0;
-}
-
-.box36 {
-    height: 4px;
-    background-color: #e10600;
-    width: 100%;
-    clip-path: polygon(0 0, 96.5% 0, 95% 100%, 0% 100%);
-}
-
-.box37 {
-    height: 8px;
-    background-color: #e10600;
-    width: 100%;
-    clip-path: polygon(0 0, 94.5% 0, 91.5% 100%, 0% 100%);
+    height: 60px;
 }
 
 .box38 {
@@ -661,6 +648,17 @@ a {
     font-size: 14px;
 }
 
+.box1234{
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.box1234 img{
+    width: 20px;
+    height: 20px;
+}
+
 .col-pos {
     font-weight: 900;
     font-size: 15px;
@@ -789,6 +787,7 @@ a {
     font-size: 14px;
     font-weight: 700;
     color: #fff;
+    margin-right: 20px;
 }
 
 .partners-grid {
@@ -901,14 +900,25 @@ a {
     object-fit: contain;
 }
 
+.footer-display-mode {
+    flex-shrink: 0;
+}
+
 .display-mode-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    white-space: nowrap;
+    flex-shrink: 0;
     background: transparent;
     border: 1px solid #ffffff;
     color: #fff;
-    padding: 8px 18px;
+    padding: 5px 18px;
     border-radius: 20px;
     font-size: 13px;
     font-weight: 700;
+    line-height: 1;
     cursor: pointer;
 }
 

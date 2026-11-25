@@ -876,7 +876,6 @@ a {
     height: 6px;
     background-color: #e10600;
     width: 100%;
-    clip-path: polygon(0 0, 98% 0, 100% 100%, 0% 100%);
 }
 
 .footer-bottom-controls {
